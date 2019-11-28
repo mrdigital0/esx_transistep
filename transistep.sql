@@ -34,3 +34,10 @@ CREATE TABLE `convoy_registered_list`
 
     PRIMARY KEY (`convoy_id`)
 );
+
+
+ALTER TABLE owned_vehicles
+ADD put_by varchar(255),
+    in_garage_type varchar(255);
+
+-- /!\ Make sure you have all these columns in owned_vehicles => owner, vehicle, plate, type, job, stored, in_garage_type, put_by
