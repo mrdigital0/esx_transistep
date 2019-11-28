@@ -35,8 +35,8 @@ CREATE TABLE `convoy_registered_list`
     PRIMARY KEY (`convoy_id`)
 );
 
-Only if you are not using my customized esx_advanced_garage
--> https://github.com/Skulrag/unknown-story/tree/master/resources/%5Bscripts%5D/%5Bdivers%5D/esx_advancedgarage
+-- Only if you are not using my customized esx_advanced_garage
+-- -> https://github.com/Skulrag/unknown-story/tree/master/resources/%5Bscripts%5D/%5Bdivers%5D/esx_advancedgarage
 
 ALTER TABLE owned_vehicles
 ADD put_by varchar(255),
