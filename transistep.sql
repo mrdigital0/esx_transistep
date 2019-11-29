@@ -35,8 +35,6 @@ CREATE TABLE `convoy_registered_list`
     `identifier`        varchar(60) NOT NULL,
     `is_trailer_stored` boolean,
     `is_paid`           boolean,
-
-    PRIMARY KEY (`convoy_id`)
 );
 
 -- Only if you are not using my customized esx_advanced_garage
