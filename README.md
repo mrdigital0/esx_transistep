@@ -3,8 +3,11 @@
 *Scroll for the FR section*
 
 Need:
+- esx_datastore
+- esx_addonaccount
+- esx_addoninventory
 - esx_vehicleshop
-- esx_service (the one that I customized for my server -> https://github.com/Skulrag/unknown-story/tree/master/resources/%5Bscripts%5D/%5Bnescessite%5D/esx_service
+- esx_service
 
 ### [FiveM][Job][Private] Transport company and management of raw materials to supply a city.
 
@@ -86,8 +89,11 @@ If you have any question feel free to dm me on github or discord: Skulrag#4676.
 # FR
 
 Besoin de:
+- esx_datastore
+- esx_addonaccount
+- esx_addoninventory
 - esx_vehicleshop
-- esx_service (celui que j'ai customisé pour mon serveur -> https://github.com/Skulrag/unknown-story/tree/master/resources/%5Bscripts%5D/%5Bnescessite%5D/esx_service
+- esx_service
 
 ### [FiveM][Job][Private] Entreprise de transport de frêt, stockage et livraison.
 
