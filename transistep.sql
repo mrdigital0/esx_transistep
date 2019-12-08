@@ -3,8 +3,7 @@ VALUES ('society_transistep', 'Transistep', 1)
 ;
 
 INSERT INTO `addon_inventory` (name, label, shared)
-VALUES	('society_transistep', 'Transistep', 1) 
-	('society_transistep_depot', 'Transistep Dépôt', 1)
+VALUES ('society_transistep', 'Transistep', 1) ('society_transistep_depot', 'Transistep Dépôt', 1)
 ;
 
 INSERT INTO `datastore` (name, label, shared) VALUES
@@ -35,11 +34,11 @@ CREATE TABLE `convoy_registered_list`
     `identifier`        varchar(60) NOT NULL,
     `is_trailer_stored` boolean,
     `is_paid`           boolean,
+
+    PRIMARY KEY (`convoy_id`)
 );
 
--- Only if you are not using my customized esx_advanced_garage
--- -> https://github.com/Skulrag/unknown-story/tree/master/resources/%5Bscripts%5D/%5Bdivers%5D/esx_advancedgarage
-
+-- Only if you're using the Unknown Story esx_advanced_garage source code
 ALTER TABLE owned_vehicles
 ADD put_by varchar(255),
     in_garage_type varchar(255);
